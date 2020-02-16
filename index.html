@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">A small survey about freecodecamp</p>
+    <form action="" id="survey-form">
+        <label for="" id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="name here" required><br><br>
+        <label for="" id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="email here" required><br><br>
+        <label for="" id="number-label">Number</label><br>
+        <input type="number" id="number" placeholder="number here" min="0" max="9"><br><br>
+        <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="car" value="1"> Have a car
+        <input type="radio" name="car" value="0"> No car<br><br>
+        <label for="">Warranty Service</label><br>
+        <input type="checkbox" name="food" value="1">Food<br>
+        <input type="checkbox" name="drink" value="1">Drink<br>
+        <input type="checkbox" name="snack" value="1">Snack<br><br>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Any more info?"></textarea><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
